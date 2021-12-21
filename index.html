@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://use.fontawesome.com/releases/v5.9.0/css/all.css" rel="stylesheet" />
+    <title>Document</title>
+</head>
+<body>
+    <div class="navbar">
+        <div class="container">
+            <a href="#" class="logo">
+                TravelFree
+            </a>
+            <img onclick="AbrirMenu()" id="menu-abrir" class="menu-mobile" src="images/menu.svg" alt="menu-nav">
+            <nav>
+                <img onclick="FecharMenu()" id="mobile-fechar" class="mobile-fechar" src="images/fechar_menu.svg" alt="fechar">              
+                    <ul class="elementos" id="elementosNav">
+                        <li> <a href="#">Sobre</a></li>
+                        <li> <a href="#">Viagens</a></li>
+                        <li> <a href="#">Contato</a></li>
+                        <li> <a href="#">Merch</a></li>
+                    </ul>
+            </nav>
+
+        </div>
+    </div>
+
+    <section class="slide">
+        <div class="slide-item">
+            <img src="images/band1.jpg">
+            <div class="foto-texto">
+                <h2>TOKYO</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam elementum nisl nisl, eu lobortis quam egestas eu. Integer varius mauris quis mi pharetra, ac mattis neque commodo.</p>
+            </div>
+        </div>
+        <div class="slide-item">
+            <img src="images/band2.jpg">
+            <div class="foto-texto">
+                <h2>PARIS</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam elementum nisl nisl, eu lobortis quam egestas eu. Integer varius mauris quis mi pharetra, ac mattis neque commodo.</p>
+            </div>
+        </div>
+        <div class="slide-item">
+            <img src="images/band3.jpg">
+            <div class="foto-texto">
+                <h2>NEW YORK</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam elementum nisl nisl, eu lobortis quam egestas eu. Integer varius mauris quis mi pharetra, ac mattis neque commodo.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="descricao">
+        <div class="container2">
+            <div class="desc-texto">
+                <p> <span>Sobre</span> <br> <br> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer varius mauris quis mi pharetra, ac mattis neque commodo. Vestibulum nisi quam, imperdiet sed risus ut, porttitor tempus neque. Donec auctor lobortis ipsum non porta. Nam scelerisque felis sapien, ut blandit nibh semper nec. Quisque sodales tellus et diam mattis, sed maximus mi pretium. Nunc mollis fermentum blandit. Ut ut faucibus est, et fermentum turpis. Nam sit amet libero eget erat maximus dignissim eu vel erat. Donec nec tellus dapibus, pulvinar metus at, consectetur elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nunc vitae tincidunt diam.</p>
+            </div>
+
+            <div class="desc-fotos">
+                <ul>
+                    <li>
+                        <p>Joana - CEO</p>
+                        <img src="images/pessoa1.jpg" alt="">
+                        <cite>Lorem ipsum dolor sit amet</cite>
+                    </li>
+                    <li>
+                        <p>Lara - CFO</p>
+                        <img src="images/pessoa2.jpg" alt="">
+                        <cite>Lorem ipsum dolor sit amet</cite>
+                    </li>
+                    <li>
+                        <p>Ana - CTO</p>
+                        <img src="images/pessoa3.jpg" alt="">
+                        <cite>Lorem ipsum dolor sit amet</cite>
+                    </li>
+                </ul>               
+            </div>
+        </div>
+    </section>
+
+    <section class="infos">
+        <div class="container3">
+            <h2>Próximos Eventos</h2>
+            <i>Donec quis libero condimentum, hendrerit libero mollis, molestie.</i>
+            <ul>
+                <li>Tokyo - Março</li>
+                <li>Paris - Junho</li>
+                <li>New York - Novembro</li>
+            </ul>
+            <div class="info-cidades">
+                <div class="info-tokyo">
+                    <img src="images/info_tokyo.jpg" alt="">
+                    <div class="infos1">
+                        <h3>Tokyo</h3>
+                        <i>Março</i>
+                        <p>Etiam sollicitudin consequat elit, id ornare dui rhoncus sed. Praesent non lectus viverra, scelerisque tortor vel, molestie justo.</p>
+                        <button class="tokyon-btn" id="comprar" onclick="inicialModal('modalID')">Comprar</button>
+                    </div>
+                </div>
+                <div class="info-paris">
+                    <img src="images/info_paris.jpg" alt="">
+                    <div class="infos2">
+                        <h3>Paris</h3>
+                        <i>Junho</i>
+                        <p>Etiam sollicitudin consequat elit, id ornare dui rhoncus sed. Praesent non lectus viverra, scelerisque tortor vel, molestie justo.</p>
+                        <button class="tokyon-btn" id="comprar2" onclick="inicialModal('modalID')">Comprar</button>
+                    </div>
+                </div>
+                <div class="info-newyork">
+                    <img src="images/info_newyork.jpg" alt="">
+                    <div class="infos1">
+                        <h3>New York</h3>
+                        <i>Novembro</i>
+                        <p>Etiam sollicitudin consequat elit, id ornare dui rhoncus sed. Praesent non lectus viverra, scelerisque tortor vel, molestie justo.</p>
+                        <button class="tokyon-btn" id="comprar3" onclick="inicialModal('modalID')">Comprar</button>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- Janela popup para compra dos ingressos-->
+    <section class="ingresso">
+
+    </section>
+
+    <section class="contato">
+        <div class="container4">
+            <div class="contato-esquerda">
+                <h2>Contato</h2>
+                <p>Envie-nos uma mensagem</p>
+
+                <div class="form">
+                    <form action="">
+                        <input type="text" name="nome" id="nome" placeholder="Nome">
+                        <input type="email" name="email" id="email" placeholder="E-mail">
+                        <textarea name="mensagem" id="mensagem" cols="30" rows="2" placeholder="digite aqui"></textarea>                   
+                        <input type="submit" value="Enviar" class="enviar-mensagem">
+                    </form>
+                </div>
+                
+            </div>
+            <div class="contato-direita">
+                <div class="infocontato">
+                    <i class="endereço"> <i class="fas fa-map-marker-alt"></i>  Belo Horizonte, Minas Gerais <br> </i>
+                    <i class="telefone"> <i class="fas fa-mobile-alt"></i>  Telefone: +55 31 0000-0000 <br></i>
+                    <i class="email"> <i class="fas fa-envelope"></i>  Email: bhtravel@mail.com</i>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- <section class="iframe">
+        <div class="mapa">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15004.453941288713!2d-43.939659099999986!3d-19.919622!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa699e4e119a387%3A0xd00dc0b14abf3fc4!2sCentro%2C%20Belo%20Horizonte%20-%20State%20of%20Minas%20Gerais!5e0!3m2!1sen!2sbr!4v1639775021722!5m2!1sen!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+    </section> -->
+
+    <footer>
+        <p>Made by: Tulio Palacine</p>
+        <div class="icone">
+            <a href="https://github.com/micder1">
+                <i class="fab fa-github-square" style="color:white"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/tulio-barros-palacine-a7550813a/">
+                <i class="fab fa-linkedin" style="color: white;"></i>
+            </a>
+        </div>
+    </footer>
+
+    <div class="modal-container" id="modal-compra">
+        <div class="modal">
+            <button class="fechar" id="fechar">X</button>
+            <h2 class="titulo"> Comprar </h2>
+            <form >
+                <p>Econômica - $50</p>
+                <input type="number" name="num-passagens-ec" id="num-passagens-ec" placeholder="Número de passagens">
+                <p>Executiva - $120</p>
+                <input type="number" name="num-passagens-ex" id="num-passagens-ex" placeholder="Número de passagens">
+                <p>Email</p>
+                <input type="email" name="num-passagens-ex" id="num-passagens-ex" placeholder="Email">
+                <button class="fin-btn">Finalizar</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
