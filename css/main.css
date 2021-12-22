@@ -458,6 +458,10 @@ nav ul li a {
   margin-right: 6px;
 }
 
+iframe {
+  width: 100%;
+}
+
 footer {
   padding-top: 2em;
   text-align: center;
