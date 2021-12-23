@@ -18,7 +18,7 @@ Neste projeto, implementei uma pagina modelo responsiva com um template feito po
  # Preview do projeto
  ## Responsividade
  <h1 align="center">
-  <img alt="Readme" title="readmeresponsivo" src="./readme_gifs/README-resposive1.gif" />
+  <img alt="Readme" title="readmeresponsivo" src="./readme_gifs/README-responsive1.gif" />
  </h1>
  
  ## Mobile
