@@ -32,9 +32,7 @@ body{
         margin-right: 20px;
         position: fixed;
         padding: 1.2em ;
-        //margin-left: 85%;
         right: 0px;
-        //border-radius: 2em;
         cursor: pointer;
         filter: invert(99%) sepia(2%) saturate(5411%) hue-rotate(293deg)
     }
@@ -50,8 +48,6 @@ body{
         font-size: 1.5em;
         margin-top: 0.2em;
         margin-bottom: 0.2em;
-        //border-top: 3px solid var(--cor-secundaria);
-        //border-bottom: 3px solid var(--cor-secundaria);
         padding: 5px;
         transition: all 0.2s ease-out;
         text-align: center;
@@ -148,7 +144,7 @@ nav{
         height: auto;
         position: absolute; //faz overlap nas fotos
         opacity: 0;
-        animation: animacaoSlide 30s infinite; //cria a animação //duração total de 20s
+        animation: animacaoSlide 30s infinite; //cria a animação //duração total de 30s
         margin: 0 5% 0 5%;
     }
 
@@ -414,7 +410,7 @@ nav{
     
 }
 
-iframe{ //n esta funcionando corretamente
+iframe{ 
     width: 100%;
 }
 
